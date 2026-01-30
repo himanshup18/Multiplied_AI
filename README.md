@@ -42,17 +42,5 @@ An interactive dashboard for analyzing Near Miss / Incident data in a constructi
 -   **Open Cases**: Records with `is_lcv: true` are treated as significant/open cases for the KPI card.
 -   **Data Source**: The application reads from `public/data/db.dashboard_incidents.json`.
 
-## Submission
-This project is ready for GitHub submission. Initialize a git repository, commit, and push to your public GitHub profile.
 
-## Deployment
-
-The easiest way to deploy this Next.js app is to use [Vercel](https://vercel.com/new).
-
-1.  **Push to GitHub**: Ensure your code is pushed to a GitHub repository.
-2.  **Import Project**: Go to Vercel, click "Add New Project", and import your repository.
-3.  **Configure Project**:
-    *   **Root Directory**: **IMPORTANT!** You must change the "Root Directory" to `near-miss-dashboard` because the app lives in a subfolder.
-    *   **Framework Preset**: Next.js (should detect automatically after setting root directory).
-4.  **Deploy**: Click "Deploy".
 
